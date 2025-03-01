@@ -1,0 +1,66 @@
+/* Header container (navbar) */
+.app-header {
+    display: flex;
+    justify-content: space-between; /* Align items to far left and right */
+    align-items: center;
+    background: #1a1a2e;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo styles (aligned left) */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation - centered in the middle (if needed) */
+nav {
+    flex-grow: 1;
+    text-align: center; /* Optional, keeps content centered */
+}
+
+/* Header actions (button aligned right) */
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* Connect Wallet Button */
+.connect-wallet-button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.connect-wallet-button:hover {
+    background: #45a049;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .app-header {
+        flex-direction: row;
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .header-actions {
+        margin-top: 0;
+    }
+}
