@@ -1,2 +1,0 @@
-# AleoDecentralizedApp
-Aleo Dapp
