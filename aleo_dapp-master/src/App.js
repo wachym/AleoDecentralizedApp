@@ -109,7 +109,7 @@ function App() {
     <WalletProvider wallets={wallets} autoConnect>
       <div className="App bg-gray-50 min-h-screen">
         <main className="container mx-auto py-10 flex flex-col items-center">
-          <h1 className="text-3xl font-semibold text-gray-900 mb-6">Welcome to Bu!lty Trees</h1>
+          <h1 className="text-3xl font-semibold text-gray-900 mb-6">Alpha Credential</h1>
           <ConnectWalletButton />
         </main>
       </div>
